@@ -11,4 +11,3 @@ def contar_letras(texto):
 # Exemplo de uso
 texto = "Olá, mundo!"
 total_letras = contar_letras(texto)
-print(f"Total de letras: {total_letras}")

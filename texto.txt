@@ -1,0 +1,5 @@
+Este é um exemplo simples
+para testar a contagem
+de palavras e letras.
+
+Texto muito curto, com menos de 50 palavras. Os resultados podem ser imprecisos ou inválidos. O índice Gunning fog, por exemplo, é baseado em um algoritmo que requer um trecho com aproximadamente 100 palavras.
