@@ -11,7 +11,8 @@
     "gunningFog": 8.5,
     "ari": 6.1,
     "cli": 9.2,
-    "gulpease": 70.8
+    "gulpease": 70.8,
+    "resultado": 8.0
   },
   {
     "arquivo": "BibliotecaPython.docx",
@@ -25,7 +26,8 @@
     "gunningFog": 14.0,
     "ari": 14.4,
     "cli": 14.3,
-    "gulpease": 48.7
+    "gulpease": 48.7,
+    "resultado": 14.0
   },
   {
     "arquivo": "BibliotecaPython.pdf",
@@ -39,7 +41,8 @@
     "gunningFog": 13.2,
     "ari": 13.3,
     "cli": 13.5,
-    "gulpease": 50.8
+    "gulpease": 50.8,
+    "resultado": 13.0
   },
   {
     "arquivo": "texto1.txt",
@@ -53,7 +56,8 @@
     "gunningFog": 12.0,
     "ari": 13.2,
     "cli": 14.7,
-    "gulpease": 50.8
+    "gulpease": 50.8,
+    "resultado": 13.0
   },
   {
     "arquivo": "texto2.txt",
@@ -67,7 +71,8 @@
     "gunningFog": 19.6,
     "ari": 20.4,
     "cli": 15.3,
-    "gulpease": 42.5
+    "gulpease": 42.5,
+    "resultado": 19.0
   },
   {
     "arquivo": "texto3.txt",
@@ -81,6 +86,7 @@
     "gunningFog": 19.6,
     "ari": 20.4,
     "cli": 15.3,
-    "gulpease": 42.5
+    "gulpease": 42.5,
+    "resultado": 19.0
   }
 ]

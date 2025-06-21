@@ -17,7 +17,7 @@ extensoes_validas = [".txt", ".pdf", ".docx"]
 
 # Cabeçalho da tabela
 print(f"{'arquivo':30} {'Letras':>7} {'Sílabas':>8} {'Palavras':>9} {'Sentencas':>10} {'Complexas':>11}"
-      f"{'Flesch':>7} {'Flesch-Kincaid':>14} {'Gunning Fog':>12} {'ARI':>4} {'CLI':>4} {'Gulpease':>9}")
+      f"{'Flesch':>7} {'Flesch-Kincaid':>14} {'Gunning Fog':>12} {'ARI':>4} {'CLI':>4} {'Gulpease':>9} {'Resultado':>10}")
 
 resultados = []
 
@@ -44,6 +44,8 @@ for nome_arquivo in os.listdir(PASTA_TEXTOS):
         cli = 5.4 * letras / palavras - 21 * sentencas / palavras - 14
         gulpease = 89 + (300 * sentencas - 10 * letras) / palavras
 
+        resultado = (fleschKincaid + gunningFog + ari + cli) / 4
+
         linha = {
             "arquivo": nome_arquivo,
             "letras": letras,
@@ -57,11 +59,12 @@ for nome_arquivo in os.listdir(PASTA_TEXTOS):
             "ari": round(ari, 1),
             "cli": round(cli, 1),
             "gulpease": round(gulpease, 1),
+            "resultado": round(resultado, 0)
         }
         resultados.append(linha)
 
         print(f"{nome_arquivo:30} {letras:7} {silabas:8} {palavras:9} {sentencas:10} {complexas:11}"
-              f" {flesch:6.1f} {fleschKincaid:14.1f} {gunningFog:12.1f} {ari:4.1f} {cli:4.1f} {gulpease:9.1f}")
+              f" {flesch:6.1f} {fleschKincaid:14.1f} {gunningFog:12.1f} {ari:4.1f} {cli:4.1f} {gulpease:9.1f} {resultado:10.0f}")
 
 # Criar pasta resultados/
 os.makedirs("resultados", exist_ok=True)
