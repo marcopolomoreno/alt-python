@@ -1,0 +1,44 @@
+[
+  {
+    "arquivo": "texto1.txt",
+    "letras": 1124,
+    "silabas": 518,
+    "palavras": 203,
+    "sentencas": 6,
+    "complexas": 32,
+    "flesch": 7.1,
+    "fleschKincaid": 20.7,
+    "gunningFog": 19.6,
+    "ari": 20.4,
+    "cli": 15.3,
+    "gulpease": 42.5
+  },
+  {
+    "arquivo": "texto2.txt",
+    "letras": 1124,
+    "silabas": 518,
+    "palavras": 203,
+    "sentencas": 6,
+    "complexas": 32,
+    "flesch": 7.1,
+    "fleschKincaid": 20.7,
+    "gunningFog": 19.6,
+    "ari": 20.4,
+    "cli": 15.3,
+    "gulpease": 42.5
+  },
+  {
+    "arquivo": "texto3.txt",
+    "letras": 1124,
+    "silabas": 518,
+    "palavras": 203,
+    "sentencas": 6,
+    "complexas": 32,
+    "flesch": 7.1,
+    "fleschKincaid": 20.7,
+    "gunningFog": 19.6,
+    "ari": 20.4,
+    "cli": 15.3,
+    "gulpease": 42.5
+  }
+]

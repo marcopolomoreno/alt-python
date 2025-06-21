@@ -1,0 +1,4 @@
+arquivo	letras	silabas	palavras	sentencas	complexas	flesch	fleschKincaid	gunningFog	ari	cli	gulpease
+texto1.txt	1124	518	203	6	32	7.1	20.7	19.6	20.4	15.3	42.5
+texto2.txt	1124	518	203	6	32	7.1	20.7	19.6	20.4	15.3	42.5
+texto3.txt	1124	518	203	6	32	7.1	20.7	19.6	20.4	15.3	42.5
