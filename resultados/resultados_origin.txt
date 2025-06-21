@@ -1,4 +1,7 @@
 arquivo	letras	silabas	palavras	sentencas	complexas	flesch	fleschKincaid	gunningFog	ari	cli	gulpease
-texto1.txt	1124	518	203	6	32	7.1	20.7	19.6	20.4	15.3	42.5
+2203.12135v3.pdf	46529	19818	9985	944	1767	72.1	6.4	8.5	6.1	9.2	70.8
+BibliotecaPython.docx	1857	828	342	16	63	29.5	14.9	14.0	14.4	14.3	48.7
+BibliotecaPython.pdf	1946	861	368	18	62	36.3	13.7	13.2	13.3	13.5	50.8
+texto1.txt	1946	861	352	20	62	31.6	13.8	12.0	13.2	14.7	50.8
 texto2.txt	1124	518	203	6	32	7.1	20.7	19.6	20.4	15.3	42.5
 texto3.txt	1124	518	203	6	32	7.1	20.7	19.6	20.4	15.3	42.5
