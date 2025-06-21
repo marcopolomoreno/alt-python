@@ -1,5 +1,4 @@
-Este é um exemplo simples
-para testar a contagem
-de palavras e letras.
-
-Texto muito curto, com menos de 50 palavras. Os resultados podem ser imprecisos ou inválidos. O índice Gunning fog, por exemplo, é baseado em um algoritmo que requer um trecho com aproximadamente 100 palavras.
+No Sistema Único de Saúde - SUS, a Assistência Farmacêutica e Insumos Estratégicos é a área responsável pela promoção, proteção e recuperação da saúde, tanto individual como coletiva, tendo o medicamento como insumo essencial, visando ao seu acesso e ao seu uso racional e garantindo à população o acesso a medicamentos considerados essenciais e promover o uso racional dos mesmos. Estes medicamentos devem ser seguros, eficazes e de qualidade.
+O SUS seleciona um elenco de medicamentos com o objetivo de atender as demandas prioritárias da população. Esta seleção é feita utilizando a metodologia de Saúde Baseada em Evidências, adotando, de forma hierárquica, os critérios de eficácia, segurança, comodidade e custo, comparando-se as alternativas existentes.
+A gestão das Políticas Nacionais de Assistência Farmacêutica, de Medicamentos de Plantas e Fitoterápicos é de responsabilidade do Departamento de Assistência Farmacêutica e Insumos Estratégicos - DAF, que tem como principal objetivo a execução de ações que garantam e ampliem o acesso da população a medicamentos promovendo o seu uso racional, sob orientação técnica e em estreita consonância com a Política Nacional de Saúde e de Assistência Farmacêutica.
+Para que a população possa usufruir de todas essas ações, é feito um esforço coletivo entre municípios, estados e o Ministério da Saúde.

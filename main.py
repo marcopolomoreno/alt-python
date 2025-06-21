@@ -2,6 +2,7 @@ from contagem.letras import contar_letras
 from contagem.palavras import contar_palavras
 from contagem.palavrasComplexas import contar_palavras_complexas, carregar_banco_palavras
 from contagem.frases import contar_frases
+from contagem.silabas import contar_silabas
 
 def ler_arquivo_texto(caminho='texto.txt'):
     try:
@@ -41,3 +42,7 @@ total_frases = contar_frases(
 )
 
 print(f"Total de frases: {total_frases}")
+
+
+# Contagem de sílabas
+print(f"Total de sílabas (aproximado): {contar_silabas(texto)}")
