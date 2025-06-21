@@ -1,11 +1,11 @@
 import os
 import csv
 import json
-from contagem.letras import contar_letras
-from contagem.palavras import contar_palavras
-from contagem.silabas import contar_silabas
-from contagem.frases import contar_frases
-from contagem.palavrasComplexas import carregar_banco_palavras, contar_palavras_complexas
+from alt_legibilidade.letras import contar_letras
+from alt_legibilidade.palavras import contar_palavras
+from alt_legibilidade.silabas import contar_silabas
+from alt_legibilidade.frases import contar_frases
+from alt_legibilidade.palavrasComplexas import carregar_banco_palavras, contar_palavras_complexas
 from extrair_texto import extrair_texto_arquivo  # função unificada para .txt, .pdf, .docx
 
 # Carregar banco de palavras mais comuns
