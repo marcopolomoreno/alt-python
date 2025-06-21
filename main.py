@@ -59,7 +59,7 @@ for nome_arquivo in os.listdir(PASTA_TEXTOS):
             "ari": round(ari, 1),
             "cli": round(cli, 1),
             "gulpease": round(gulpease, 1),
-            "resultado": round(resultado, 0)
+            "resultado": round(resultado, 0),
         }
         resultados.append(linha)
 
