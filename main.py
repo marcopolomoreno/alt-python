@@ -78,7 +78,17 @@ with open("resultados/resultados.csv", "w", encoding="utf-8", newline='') as f:
 with open("resultados/resultados.json", "w", encoding="utf-8") as f:
     json.dump(resultados, f, ensure_ascii=False, indent=2)
 
-print("\nDados salvos na pasta 'resultados/' como:")
-print(" - resultados_origin.txt (formato tabulado para Origin)")
-print(" - resultados.csv         (compatível com Excel)")
-print(" - resultados.json        (para uso em aplicações)")
+# Mensagem final formatada e colorida
+verde = '\033[92m'
+azul = '\033[94m'
+reset = '\033[0m'
+
+print(f"\n{azul}{'=' * 50}")
+print("  Dados de legibilidade salvos com sucesso!")
+print(f"{'=' * 50}{reset}")
+
+print(f"{verde}📁 Pasta: resultados/{reset}")
+print(f" - resultados_origin.txt  → para uso no OriginLab")
+print(f" - resultados.csv         → para Excel, LibreOffice etc.")
+print(f" - resultados.json        → para uso em scripts e APIs\n")
+
