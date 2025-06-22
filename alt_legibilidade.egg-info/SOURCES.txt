@@ -1,4 +1,5 @@
 LICENSE
+MANIFEST.in
 setup.py
 alt_legibilidade/__init__.py
 alt_legibilidade/__main__.py
@@ -15,3 +16,4 @@ alt_legibilidade.egg-info/dependency_links.txt
 alt_legibilidade.egg-info/entry_points.txt
 alt_legibilidade.egg-info/requires.txt
 alt_legibilidade.egg-info/top_level.txt
+banco/palavras-mais-comuns-utf8.txt
